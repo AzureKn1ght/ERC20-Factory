@@ -1,0 +1,23 @@
+{
+  "name": "erc20-factory",
+  "version": "1.0.0",
+  "description": "ERC20-Factory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_localhost": "npx hardhat ignition deploy ignition/modules/Lock.js --network localhost",
+    "deploy_sepolia": "npx hardhat ignition deploy ignition/modules/Lock.js --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.11"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
