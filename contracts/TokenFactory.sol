@@ -19,4 +19,8 @@ contract TokenFactory {
     function numTokens() public view returns (uint256) {
         return createdTokens.length;
     }
+
+    function getTokens() public view returns (address[] memory) {
+        return createdTokens;
+    }
 }
