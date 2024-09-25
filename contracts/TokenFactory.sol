@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 import "./MemeToken.sol";
 
 contract TokenFactory {
-    address[] createdTokens;
+    address[] public createdTokens;
     event TokenCreated(address tokenAddress);
 
     function createToken(

@@ -7,3 +7,6 @@ module.exports = buildModule("Factory", (m) => {
   const factory = m.contract("TokenFactory");
   return { factory };
 });
+
+//npx hardhat ignition deploy ignition/modules/Factory.js --network bscTestnet --verify --deployment-id second-deploy
+//second-deploy etc is optional
