@@ -1,0 +1,10 @@
+
+1. Call TokenFactory to get Token and Address
+2. Approve TKN spend on PCS Router for INFINITY
+3. Call addLiquidityETH and send TKN + BNB value
+4. Get the address of the LP somehow getPair on  Factory? Txn Receipt?
+5. Approve LP spend on PCS Router for INFINITY
+6. Get the amount balance of the LP token 
+7. Get the balance of each of the tokens in LP
+8. Call removeLiquidityETH with a 1% slippage
+ 
