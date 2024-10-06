@@ -5,7 +5,7 @@ const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
 module.exports = buildModule("Meme", (m) => {
   const meme = m.contract("MemeToken", [
-    "0x00000051C8564b0572FF2551366eEB88a1190211",
+    "YOURWALLETADDRESSHERE",
     "MemeToken",
     "MTK",
   ]);
