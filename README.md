@@ -12,7 +12,7 @@ You will need to create a file called *.env* in the root directory, copy the tex
 
 
 # How to Run 
-You first need to setup all the necessary keys such as [Etherecan](https://etherscan.io/). Then setup your required RPCs and networks in hardhat.config.js.  
+You first need to setup all the necessary keys such as [Etherscan](https://etherscan.io/). Then setup your required RPCs and networks in hardhat.config.js.  
 ```
 npm install
 npx hardhat ignition deploy ignition/modules/Meme.js --network bsc --verify
